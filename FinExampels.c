@@ -10,7 +10,7 @@ struct node *ptr;
 ptr=head;
 
     while(ptr!=NULL){
-            printf("%d ",ptr->data);
+            printf("patient %d  ",ptr->data);
         ptr=ptr->link;
     }
     printf("\n");
